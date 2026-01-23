@@ -8,7 +8,7 @@ METRICS_PATH = "app/models/metrics.json"
 
 def save_metrics(references, hypotheses, loss=None):
     """
-    Calcula y guarda las métricas del modelo.
+    Calcula y guarda las metricas del model
     """
 
     metrics = {
@@ -25,7 +25,7 @@ def save_metrics(references, hypotheses, loss=None):
 
 def get_metrics():
     """
-    Devuelve las métricas del último entrenamiento.
+    Devuelve las metricas del ultimo entrenmiento
     """
     if not os.path.exists(METRICS_PATH):
         return {
@@ -34,5 +34,6 @@ def get_metrics():
 
     with open(METRICS_PATH, "r", encoding="utf-8") as f:
         metrics = json.load(f)
+
 
     return metrics
