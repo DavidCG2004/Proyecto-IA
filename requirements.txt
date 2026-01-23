@@ -1,0 +1,27 @@
+# Backend
+fastapi
+uvicorn
+python-multipart
+pydantic
+python-dotenv
+
+# Deep Learning / IA
+torch
+transformers
+datasets
+accelerate
+
+# Audio processing
+librosa
+soundfile
+pydub
+ffmpeg-python
+
+# Metrics & utils
+jiwer
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+loguru
