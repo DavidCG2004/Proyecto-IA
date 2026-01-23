@@ -5,7 +5,7 @@ from app.config import settings
 
 def save_uploaded_file(file: UploadFile) -> str:
     """
-    Guarda un archivo subido y devuelve su ruta.
+    Guarda un archivo subido y devuelve su ruta
     """
 
     os.makedirs(settings.AUDIO_PATH, exist_ok=True)
@@ -16,3 +16,4 @@ def save_uploaded_file(file: UploadFile) -> str:
         buffer.write(file.file.read())
 
     return file_path
+
