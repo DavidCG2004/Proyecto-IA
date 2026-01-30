@@ -1,1 +1,0 @@
-from app.api.index import api_router, root_router
